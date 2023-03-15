@@ -1,0 +1,120 @@
+@media (max-width: 600px) {
+    #login{
+        padding: 5vh 0 50vh;
+        margin:10vh 0 50vh
+    }
+#PaginaPrincipalBody{
+    background-image: url(https://previews.123rf.com/images/carpathianprince/carpathianprince1203/carpathianprince120300015/12987623-primero-en-llegar-a-la-meta-resumen-ilustraci%C3%B3n-de-dos-autos-de-carrera-antiguos-que-van-a-trav%C3%A9s-de.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    
+  }
+  li {
+    
+    border-radius: 1vh;
+    color: black;
+    border-color: black;
+    border-style: inset;
+    background-color:white;
+    opacity: 0.8;
+    padding: 1vh;
+    margin: 1vh;
+  }
+  ol{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 1vh;
+    margin: 1vh;
+    
+  }
+  h1{
+    color: blue;
+    
+  }
+}
+@media (min-width: 601px) {
+    #login{
+        padding: 20vh;
+        margin:10vh 0 30vh
+    }
+    #PaginaPrincipalBody{
+        background-image: url(https://previews.123rf.com/images/carpathianprince/carpathianprince1203/carpathianprince120300015/12987623-primero-en-llegar-a-la-meta-resumen-ilustraci%C3%B3n-de-dos-autos-de-carrera-antiguos-que-van-a-trav%C3%A9s-de.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        
+      }
+      li {
+        
+        border-radius: 1vh;
+        color: black;
+        border-color: black;
+        border-style: inset;
+        background-color:white;
+        opacity: 0.8;
+        padding: 1vh;
+        margin: 1vh;
+      }
+      ol{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 1vh;
+        margin: 1vh;
+        
+      }
+      h1{
+        color: blue;
+        
+      }
+    }
+    @media (min-width: 1200px) {
+        #login{
+            padding: 30vh 0 50vh;
+            margin:10vh 0 50vh
+        }
+        #PaginaPrincipalBody{
+            background-image: url(https://previews.123rf.com/images/carpathianprince/carpathianprince1203/carpathianprince120300015/12987623-primero-en-llegar-a-la-meta-resumen-ilustraci%C3%B3n-de-dos-autos-de-carrera-antiguos-que-van-a-trav%C3%A9s-de.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            
+          }
+          li {
+            
+            border-radius: 1vh;
+            color: black;
+            border-color: black;
+            border-style: inset;
+            background-color:white;
+            opacity: 0.8;
+            padding: 1vh;
+            margin: 1vh;
+          }
+          ol{
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            list-style-type: none;
+            padding: 10vh 0vh 20vh;
+            margin: 10vh 0 30vh;
+            
+          }
+          h1{
+            color: blue;
+            
+          }
+        }

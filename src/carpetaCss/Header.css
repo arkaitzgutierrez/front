@@ -1,0 +1,123 @@
+@media (max-width: 600px) {
+    
+     #header {
+       display: flex;
+       justify-content: space-between;
+       height: 150px;
+       padding: 2vh;
+       margin: 0vh 0vh 2vh;
+       background-image: url("../../public/Fotos/coche\ header.webp");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+     }
+     #logo {
+       max-width: 500px;
+       height: 10px;
+     }
+     #imagen {
+        max-height: 100px;
+        transform: rotate(-15deg);
+      }
+    #arriba{
+        list-style-type: none;
+        max-height: 18px;
+        background-color: inherit;
+        
+              }
+    #link{
+        color: rgb(212, 12, 12);
+        size-adjust: 20%;
+        
+    }
+    p{
+    text-decoration: underline;
+    font-size: medium;
+    font-weight: 800;
+    color: blue;
+    }
+    
+    }
+    @media (min-width: 601px) {
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+        #header {
+          display: flex;
+          justify-content: space-between;
+          height: 150px;
+          padding: 2vh;
+          margin: 0vh 0vh 2vh;
+          background-image: url("../../public/Fotos/coche\ header.webp");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        #logo {
+          max-width: 500px;
+          height: 10px;
+        }
+        #imagen {
+           max-height: 100px;
+           transform: rotate(-15deg);
+         }
+       #arriba{
+           list-style-type: none;
+           max-height: 18px;
+           background-color: inherit;
+           
+                 }
+       #link{
+           color: rgb(212, 12, 12);
+           size-adjust: 20%;
+           
+       }
+       p{
+       text-decoration: underline;
+       font-size: medium;
+       font-weight: 800;
+       color: blue;
+       }
+       
+       }
+       @media (min-width: 601px) {
+    
+        #header {
+          display: flex;
+          justify-content: space-between;
+          height: 150px;
+          padding: 2vh;
+          margin: 0vh 0vh 2vh;
+          background-image: url("../../public/Fotos/coche\ header.webp");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        #logo {
+          max-width: 500px;
+          height: 10px;
+        }
+        #imagen {
+           max-height: 100px;
+           transform: rotate(-15deg);
+         }
+       #arriba{
+           list-style-type: none;
+           max-height: 18px;
+           background-color: inherit;
+           
+                 }
+       #link{
+           color: rgb(212, 12, 12);
+           size-adjust: 20%;
+           
+       }
+       p{
+       text-decoration: underline;
+       font-size: medium;
+       font-weight: 800;
+       color: blue;
+       }
+       
+       }

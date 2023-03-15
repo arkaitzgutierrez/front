@@ -1,0 +1,21 @@
+img {
+    width: 50%;
+    max-width: 150px;
+    transition: width 2s;
+  }
+  h2{
+    width: 50%;
+  }
+#foto{
+    width: 20%;
+    margin: 2vh;
+    padding: 2vh;
+    border-color: black;
+    border-radius: 1vh;
+    box-shadow: 2px rgb(46, 13, 13);
+}
+#listadoCoches{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

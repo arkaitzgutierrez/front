@@ -1,0 +1,212 @@
+
+img {
+    width: 200px;
+    transition: width 2s;
+  }
+
+#encarrera{
+    max-width: 50px;
+    position:absolute
+  }
+  .vederecha{
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    animation-name: mianimacion;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    position:relative;
+  }
+  .veizda{
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    animation-name: mianimacionb;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    position:relative;
+    transform:rotate(180deg)
+  }
+  .vueltaderecha{
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    animation-name: mianimacionc;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    position:relative;
+    transform:rotate(30deg)
+  }
+  .vueltaizda{
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    animation-name: mianimaciond;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    position:relative;
+    transform:rotate(70deg)
+  }
+
+#Entorno_pista{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ida{
+  display: flex;
+  align-items: center;
+}
+.retorno{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+#curvad{
+  border-radius: 1vh 10vh 1vh 1vh;
+}
+#d{
+    border-radius: 1vh 10vh 1vh 1vh;
+}
+#curvae{
+    border-radius: 1vh 1vh 10vh 1vh;
+}
+#curvah{
+    border-radius: 10vh 1vh 1vh 1vh;
+}
+#curvai{
+    border-radius: 1vh 1vh 1vh 10vh;
+}
+#curval{
+    border-radius: 1vh 10vh 1vh 1vh;
+}
+#curvam{
+    border-radius: 1vh 1vh 10vh 1vh;
+}
+#fin{
+  /* margin-top: 10vh;
+  padding-top: 10vh; */
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  background-image: url('https://www.shutterstock.com/image-vector/cartoon-racing-car-reach-finish-260nw-2144380139.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 500px;
+}
+h3{
+  margin-top: 100px;
+  width: 50%;
+  color: red;
+  text-shadow: 2px -2px #000;
+  transform: rotate(-15deg);
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 2em
+  ;
+}
+ .pista{
+display:flex;
+align-items:center;
+width:100px;
+height: 100px;
+border-color: black;
+border-style: outset;
+border-radius: 1vh;
+margin: 1vh 0vh 1vh 0vh;
+padding: 1vh;
+background-color: blanchedalmond;
+}    
+@keyframes mianimacion{
+  0%{left:0px;top:0px}
+  10%{left:5px;top:5px}
+  20%{left:10px;top:0px}
+  30%{left:15px;top:5px}
+  40%{left:20px;top:0px}
+  50%{left:25px;top:5px}
+  60%{left:30px;top:0px}
+  70%{left:35px;top:5px}
+  80%{left:40px;top:0px}
+  90%{left:45px;top:5px}
+  100%{left:50px;top:0px}
+}
+@keyframes mianimacionb{
+  0%{left: 50px;top:0px}
+  10%{left:45px;top:5px}
+  20%{left:40px;top:0px}
+  30%{left:35x;top:5px}
+  40%{left:30px;top:0px}
+  50%{left:25px;top:5px}
+  60%{left:20px;top:0px}
+  70%{left:15px;top:5px}
+  80%{left:10px;top:0px}
+  90%{left:5px;top:5px}
+  100%{left:0px;top:0px}
+}
+@keyframes mianimacionc{
+  0%{left:0px;top:-25px}
+  10%{left:0px;top:-20px}
+  20%{left:0px;top:-15px}
+  30%{left:0px;top:-10px}
+  40%{left:5px;top:-5px}
+  50%{left:10px;top:0px}
+  60%{left:15px;top:10px}
+  70%{left:20px;top:25px}
+  80%{left:25px;top:30px}
+  90%{left:30px;top:45px}
+  100%{left:35px;top:50px}
+}
+@keyframes mianimaciond{
+  0%{left:50px;top:-25px}
+  10%{left:45px;top:-20px}
+  20%{left:40px;top:-15px}
+  30%{left:35px;top:-10px}
+  40%{left:30px;top:-5px}
+  50%{left:25px;top:0px}
+  60%{left:20px;top:5px}
+  70%{left:15px;top:10px}
+  80%{left:10px;top:15px}
+  90%{left:5px;top:20px}
+  100%{left:0px;top:25px}
+}
+ #drch{
+max-width: 32px;
+ }   
+  #izda{
+    max-width: 32px;
+  } 
+  #arri{
+    max-width: 32px;
+   }
+   #abaj{
+    max-width: 32px;
+   }
+  #todos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #todocoche{
+    border: solid;
+    border-color: #000;
+    background-color: aqua;
+    border-radius: 2vh;
+  }
+  #fin{
+    /* margin-top: 10vh;
+    padding-top: 10vh; */
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    background-image: url('https://www.shutterstock.com/image-vector/cartoon-racing-car-reach-finish-260nw-2144380139.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+  }
